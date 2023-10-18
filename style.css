@@ -1,0 +1,87 @@
+   * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body{
+          background-image: url("./carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg");
+          background-position: center;
+          background-size: cover; 
+          background-repeat: no-repeat ;
+          font-family: system-ui, -apple-system,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      #lo {
+          width: 60px;
+          border-radius: 30px;
+        }
+       
+        img {
+          width: 100%;
+        }
+      #form{
+          width: 400px;
+          margin: 10vh auto 0 auto;
+          background-color: rgb(240, 242, 242);
+          border-radius: 0px 0px 0px 0px;
+          padding: 30px;
+          box-shadow: inset 0px 0px 10px rgb(31, 53, 41), 0px 0px 16px rgb(0, 0, 0);
+      
+      }
+      h1{
+          text-align: center;
+          color: rgb(4, 30, 23);
+      }
+      #form button{
+          background: linear-gradient(120deg,rgba(224, 229, 227, 0.87),rgba(50, 56, 56, 0.904));
+          color: rgb(57, 58, 57);
+          border-radius: 0px;
+          padding: 10px;
+          margin: 20px 0px;
+          cursor: pointer;
+          font-size: 20px;
+          width: 100%;
+      }
+      .input-box label{
+          font-size: 18px;
+      
+      }
+      .input-box{
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+          padding: 5px;
+          margin-top: 10px;
+      }
+      .input-box input{
+          border-radius: 5px;
+          font-size: 18px;
+          margin-top: 5px;
+          padding: 10px;
+          border: 1px solid rgb(34, 193, 187);
+      }
+      .input-box input:focus{
+          outline: 0;
+          box-shadow: 0px 0px 4px rgb(0, 238, 255);
+      }
+      .input-box .error{
+          color: rgb(90, 5, 5);
+          font-size: 20px;
+          margin-top: 5px;
+      }
+      .input-box.success input{
+          border-color:rgb(14, 231, 14);
+      }
+      
+      .input-box.error input{
+          border-color:rgb(90, 5, 5);
+      }
+      .todo{
+          font-size: 18px;
+          background-color: rgb(155, 203, 203);
+          border-radius: 10px;
+          box-shadow: inset 0px 0px 10px rgb(172, 165, 165), 0px 0px 5px rgb(0, 0, 0);
+          cursor: pointer;
+          padding: 5px;
+      }
+   
